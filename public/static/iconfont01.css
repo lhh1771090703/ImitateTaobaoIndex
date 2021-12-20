@@ -1,0 +1,28 @@
+@font-face {
+  font-family: 'iconfont'; /* Project id  */
+  src: url('./font/iconfontnew.ttf?t=1638199914370') format('truetype');
+}
+
+.iconfont {
+  font-family: 'iconfont' !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dianpu:before {
+  content: '\e895';
+}
+
+.icon-zuji:before {
+  content: '\e755';
+}
+
+.icon-womaiguode-baisedi3x:before {
+  content: '\e63c';
+}
+
+.icon-star:before {
+  content: '\e9a1';
+}
