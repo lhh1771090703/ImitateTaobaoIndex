@@ -281,6 +281,15 @@
           <strong>&emsp;年级：<span>19级 🤷‍♂️</span></strong>
 
           <strong>&emsp;姓名：<span>罗毫毫 👨‍💻</span></strong>
+          <div class="usermsg">
+            <span>联系方式-->></span>
+            <img src="@/assets/imgs/userqrcode.jpg" alt="图片" />
+            <hr class="hb" />
+            <p class="introduceCode">源码已上传至github</p>
+            <p class="introduceCode">
+              开源地址：https://github.com/lhh1771090703/ImitateTaobaoIndex/
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -791,6 +800,33 @@ export default {
     .news {
       .news_next {
         height: 100px;
+        position: relative;
+        .usermsg {
+          height: 100px;
+          width: 700px;
+          position: absolute;
+          left: 400px;
+          top: 0px;
+          font-size: 50px;
+          color: red;
+          .hb {
+            color: red;
+            position: relative;
+            left: -403px;
+            width: 1195px;
+          }
+          .introduceCode {
+            position: relative;
+            top: -15px;
+            color: #3c3c3c;
+            left: -60px;
+            font-size: 18px;
+          }
+          img {
+            width: 100px;
+            margin-left: 90px;
+          }
+        }
         strong {
           height: 33.33%;
           display: block;
